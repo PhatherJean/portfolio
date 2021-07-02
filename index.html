@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2 oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Patrice Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <p class="top"> < fullstack /> </fullstack></p>
+
+      <div class="logo">
+        <img src="" alt="" />
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav-item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav-item">
+            <a href="#service" class="nav__link">My Service</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work" class="nav__link">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Introductory Section -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hey, I am <strong>Patrice Jean </strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Full Stack Dev</p>
+      <img src="./picts/this_guy.jpg" alt="Patrice image" class="intro__img" />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="service">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Logo</h3>
+          <p>
+            Build logos from scratch bring what you imagine to life. Sometimes
+            the hardest thing to do is build what you want to represent your
+            company. Especially with all the cool options that presents itself
+            in the process.
+          </p>
+        </div>
+        <!-- /service -->
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            Full Stack build for your frontend, backend, and everywhere in
+            between application as well as deploy it to the world wide web all
+            in one spot.
+          </p>
+        </div>
+        <!-- /service -->
+        <div class="service">
+          <h3>Apps</h3>
+          <p>
+            Build the foundation and watch the program continue to scale with
+            your company with code that are not only reuseable it is also
+            scaleable.
+          </p>
+        </div>
+        <!-- /service -->
+      </div>
+      <!--/services  -->
+      <a href="#work" class="btn">My Project</a>
+    </section>
+    <!-- About Me -->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who am I</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Remote developer based out of the D.M.V
+      </p>
+      <div class="about-me__body">
+        <p></p>
+        <p></p>
+      </div>
+
+      <img src="./picts/hatPat.jpg" alt="" class="about-me__img" />
+    </section>
+
+    <!-- Projects -->
+
+    <section class="my-work" id="work">
+      <h2 class="section__title">Projects</h2>
+      <p class="section__subtitle"></p>
+
+      <div class="portfolio">
+        <!-- Portfolio Item 01 -->
+        <a href="https://pbj-transport-llc-phatherjean.vercel.app/" class="portfolio__item">
+          <img class="portfolio__img" src="./picts/logo.PNG" alt="PBJ Transport" />
+          <p>PBJ Transport</p>
+        </a>
+        <!-- Portfolio Item 02 -->
+        <a href="https://patrickjean91.medium.com/" class="portfolio__item">
+          <img class="portfolio__img" src="/picts/qrscannerread.PNG" alt="Boys and Girls Club scanner" />
+          <p>Boy and Girls Club of the Greater Conejo Valley</p>
+        </a>
+        <!-- Portfolio Item 03 -->
+        <a href="https://school-in-the-cloud-pied.vercel.app/" class="portfolio__item">
+          <img class="portfolio__img" src="/picts/Laptops-for-Middle-School-Students.jpg" alt="student look at Laptops-for-Middle-School-Students" />
+          <p>School in the Cloud</p>
+        </a>
+        <!-- Portfolio Item 04 -->
+        <a href="https://front-end-ctbjqyp2x.vercel.app/" class="portfolio__item">
+          <img class="portfolio__img" src="/picts/FoodTruckTR.PNG" alt="FoodTruck TrackR" />
+          <p>Food Truck TrackR</p>
+        </a>
+       
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:jeanpatrice91@yahoo.com" class="footer__link"
+        >Lets Connect 📨</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social__list--link"
+            href="https://patrickjean91.medium.com/"
+          >
+            <img src="./picts/icons8-medium-50.png" alt="medium" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social__list--link" href="https://github.com/PhatherJean">
+            <img src="./picts/icons8-github-24.png" alt="github" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social__list--link" href="https://twitter.com/phather_jean">
+            <img src="./picts/icons8-twitter-48.png" alt="twitter" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social__list--link"
+            href="https://www.linkedin.com/in/patrice-jean/"
+          >
+            <img src="./picts/icons8-linkedin-48.png" alt="Linkedin" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>
